@@ -1,0 +1,30 @@
+/* Paleta inspirada en AppDirect - variables para Light y Dark modes */
+:root {
+  /* Light mode defaults */
+  --bg: #F4F7FA;
+  --surface: #FFFFFF;
+  --primary: #0066CC;
+  --accent: #008CA3;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --card-shadow: 0 6px 18px rgba(9, 30, 66, 0.06);
+  --muted: #94a3b8;
+}
+
+/* Dark mode */
+:root[data-theme='dark'], html[data-theme='dark'] {
+  --bg: #0B131F;
+  --surface: #121E2D;
+  --primary: #00A8E8;
+  --accent: #00C1D4;
+  --text-primary: #F0F4F8;
+  --text-secondary: #8A99AD;
+  --card-shadow: 0 6px 18px rgba(2,8,23,0.6);
+  --muted: #8a99ad;
+}
+
+/* Utility tokens */
+:root, :root[data-theme='dark'] {
+  --radius: 12px;
+  --glass: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}

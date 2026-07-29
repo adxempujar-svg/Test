@@ -1,0 +1,35 @@
+export const projects = [
+  {
+    id: 'p1',
+    title: 'Dashboard Analytics - Java & React',
+    techs: ['Java', 'React', 'REST'],
+    description: 'Dashboard de métricas con autenticación y APIs REST. Panel de administración y charts dinámicos.',
+    thumbnail: '/public/thumb-dashboard.jpg',
+    repo: 'https://github.com/jhondoe/dashboard-analytics',
+    demo: '#',
+    views: 1340,
+    updatedAt: '2026-07-20'
+  },
+  {
+    id: 'p2',
+    title: 'E-commerce Microservices',
+    techs: ['Java', 'Spring', 'Docker'],
+    description: 'Arquitectura de microservicios para comercio electrónico con mensajería asíncrona.',
+    thumbnail: '/public/thumb-ecommerce.jpg',
+    repo: 'https://github.com/jhondoe/ecommerce-ms',
+    demo: '#',
+    views: 874,
+    updatedAt: '2026-06-05'
+  },
+  {
+    id: 'p3',
+    title: 'Portfolio React + Vite',
+    techs: ['React', 'Vite', 'CSS'],
+    description: 'Portafolio personal en React y Vite con soporte Dark/Light y rutas multi-página.',
+    thumbnail: '/public/thumb-portfolio.jpg',
+    repo: 'https://github.com/jhondoe/portfolio',
+    demo: '#',
+    views: 2200,
+    updatedAt: '2026-07-25'
+  }
+]
