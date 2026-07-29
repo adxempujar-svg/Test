@@ -1,0 +1,1 @@
+import{j as n,L as i}from"./index-nh99aJ7Q.js";function t(){return n.jsxs("div",{style:{textAlign:"center",padding:40},children:[n.jsx("h1",{children:"404"}),n.jsx("p",{children:"Pagina no encontrada."}),n.jsx(i,{to:"/",children:"Volver al inicio"})]})}export{t as default};
